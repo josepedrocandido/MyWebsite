@@ -1,0 +1,46 @@
+.home
+  background: url("../img/background.jpg") no-repeat
+  background-size: cover
+  height: 100vh
+  overflow: auto
+  display: flex
+  flex-direction: column
+  padding: 0px
+
+.landing-page
+  height: 100%
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+.landing-info
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-bottom: 82px
+  @media only screen and ($smartphone), ($smartphoneRotated)
+    margin-top: 70px
+    margin-bottom: 0px
+  @media only screen and ($smartphoneRotated)
+    margin-bottom: 0px
+
+.company-logo
+  img
+    height: 200px
+    width: auto
+    @media only screen and ($smartphone)
+      height: 170px
+      margin-bottom: 20px
+    @media only screen and ($smartphoneRotated)
+      height: 110px
+      margin-bottom: 10px
+
+.social-networks-logos
+  display: flex
+
+.facebook-logo, .instagram-logo
+  padding: 5px
+
+.facebook-logo:hover, .instagram-logo:hover
+  opacity: 0.8
+  transition: 0.3s
