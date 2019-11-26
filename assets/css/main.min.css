@@ -355,10 +355,10 @@ h1 {
   font-size: 68.66px;
   font-weight: bold;
   margin: 0; }
-  @media only screen and (max-width: 1300px) {
+  @media only screen and (max-width: 1024px) {
     h1 {
       text-align: center; } }
-  @media only screen and (max-width: 1300px) and (max-width: 680px) {
+  @media only screen and (max-width: 1024px) and (max-width: 680px) {
     h1 {
       font-size: 35.36px; } }
 
@@ -370,11 +370,11 @@ p {
   text-align: justify;
   margin-bottom: 20px;
   margin-top: 0; }
-  @media only screen and (max-width: 1300px) {
+  @media only screen and (max-width: 1024px) {
     p {
       text-align: center;
       margin-bottom: 40px; } }
-  @media only screen and (max-width: 1300px) and (max-width: 680px) {
+  @media only screen and (max-width: 1024px) and (max-width: 680px) {
     p {
       margin-bottom: 20px; } }
 
@@ -398,7 +398,7 @@ p {
 .home {
   display: block; }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1024px) {
   .home {
     display: none; } }
 
@@ -448,7 +448,7 @@ p {
 
 .home-mobile {
   display: none; }
-  @media only screen and (max-width: 1300px) {
+  @media only screen and (max-width: 1024px) {
     .home-mobile {
       background-color: #3E3335;
       display: flex;
