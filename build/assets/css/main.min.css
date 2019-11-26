@@ -373,6 +373,9 @@ p {
   text-align: justify;
   margin-bottom: 20px;
   margin-top: 0; }
+  @media only screen and (max-width: 1600px) {
+    p {
+      text-align: center; } }
   @media only screen and (max-width: 1024px) {
     p {
       text-align: center;
