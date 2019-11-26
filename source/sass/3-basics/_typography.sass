@@ -6,11 +6,13 @@
 // font-weight: 400; //normal
 // font-weight: 500; //medium
 // font-weight: 700; //bold
+
+
 h2
   font-family: 'Nunito', sans-serif
   letter-spacing: 0
   color: $gold
-  font-size: 41.89px
+  font-size: 28.13px
   font-weight: lighter
   margin: 0
 
@@ -19,15 +21,25 @@ h1
   font-family: 'Open Sans', sans-serif
   letter-spacing: 0
   color: white
-  font-size: 67.77px
+  font-size: 68.66px
   font-weight: bold
   margin: 0
+  @media only screen and ($smallScreens)
+    text-align: center
+    @media only screen and ($smartphone)
+      font-size: 35.36px
+
 
 p
   font-family: 'Nunito', sans-serif
   letter-spacing: 0
   color: white
-  font-size: 25.89px
+  font-size: 18px
   text-align: justify
-  margin-bottom: 40px
+  margin-bottom: 20px
   margin-top: 0
+  @media only screen and ($smallScreens)
+    text-align: center
+    margin-bottom: 40px
+    @media only screen and ($smartphone)
+      margin-bottom: 20px
