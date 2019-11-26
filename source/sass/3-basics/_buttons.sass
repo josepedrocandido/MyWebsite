@@ -4,25 +4,28 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"],
 input[type="checkbox"]
+  width: 208px
+  height: 68px
   display: inline-block
-  padding: 6px 39px
-  color: black
+  color: white
   text-align: center
-  font-size: 14px
+  font-size: 25.89px
   font-weight: 600
-  // text-transform: uppercase
+  font-family: 'Nunito', sans-serif
+  text-transform: uppercase
   text-decoration: none
   white-space: nowrap
-  background-color: white
+  background-color: transparent
   border-style: none
-  border-radius: 100px
+  border-radius: 8px
+  border: 2px solid white
   cursor: pointer
   box-sizing: border-box
   transition: all 0.2s ease
 
 
-  @media only screen and (max-width: 680px)
-    padding: 6px 30px
+  // @media only screen and (max-width: 680px)
+  //   padding: 6px 30px
 
 
   &:hover,
@@ -32,3 +35,4 @@ input[type="checkbox"]
     outline: 0
     transform: scale(1.01)
     transform: translateY(3px)
+    border: 2px solid $gold
