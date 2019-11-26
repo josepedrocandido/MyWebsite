@@ -283,7 +283,8 @@ input[type="checkbox"] {
   border: 2px solid white;
   cursor: pointer;
   box-sizing: border-box;
-  transition: all 0.2s ease; }
+  transition: all 0.2s ease;
+  margin: 0px 20px; }
   .button:hover, .button:active, .button:focus,
   button:hover,
   button:active,
@@ -307,7 +308,7 @@ input[type="checkbox"] {
     border: 2px solid #F0D5BC; }
 
 a {
-  color: blue;
+  color: white;
   text-decoration: none;
   outline: 0;
   transition: 0.3s; }
@@ -317,10 +318,10 @@ a:hover {
   opacity: 0.8; }
 
 ::selection {
-  background: rgba(255, 150, 0, 0.6); }
+  background: #F0D5BC; }
 
 ::-moz-selection {
-  background: rgba(255, 150, 0, 0.6); }
+  background: #F0D5BC; }
 
 img::selection {
   background: transparent; }
@@ -353,7 +354,8 @@ p {
   color: white;
   font-size: 25.89px;
   text-align: justify;
-  margin: 0; }
+  margin-bottom: 40px;
+  margin-top: 0; }
 
 .flex-video {
   height: 0;
@@ -381,13 +383,13 @@ p {
   padding: 50px 35px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   background-color: #3E3335;
   width: 50%; }
 
 .picture {
-  width: 50vw;
+  width: 50%;
   background: url("../img/zepedro.jpg") no-repeat;
   background-size: cover;
   overflow: auto; }
@@ -399,6 +401,11 @@ p {
   align-items: center; }
   .icons img {
     padding: 10px; }
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .magin-bottom-20 {
   margin-bottom: 20px; }
